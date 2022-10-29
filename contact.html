@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <a href="/index.html"><img class="logo" src="/static/blog.png" alt="A picture of a web blog"></a>
+        <nav class="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="/index.html">Home</a></li>
+                <li><a class="nav-link" href="/html5.html">HTML5</a></li>
+                <li><a class="nav-link" href="/css3.html">CSS3</a></li>
+                <li><a class="nav-link" href="/javascript.html">JavaScript</a></li>
+                <li><a class="nav-link" href="/contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="page-title">
+            <h1>Contacto</h1>
+        </div>
+        <form class="contacto" action="">
+            <div>
+                <label for="nombres">Nombres</label>
+                <input type="text" name="nombres" maxlength="255" placeholder="John" required>
+            </div>
+            <div>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" name="apellidos" maxlength="255" placeholder="Doe" required>
+            </div>
+            <div>
+                <label for="nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="nacimiento" required>
+            </div>
+            <div>
+                <label for="correo">E-mail</label>
+                <input type="email" name="correo" placeholder="john@doe.com" required>
+            </div>
+            <div>
+                <input class="btn" type="submit" value="Enviar">
+                <input class="btn" type="submit" value="Limpiar">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <a href="https://www.flaticon.com/free-icons/blog" target="_blank" title="blog icons">Blog icons created by Freepik - Flaticon</a>
+    </footer>
+</body>
+</html>
